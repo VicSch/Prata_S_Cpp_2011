@@ -1,0 +1,9 @@
+4
+Ann
+150
+Vova
+200
+Sveta
+100
+Victor
+100
