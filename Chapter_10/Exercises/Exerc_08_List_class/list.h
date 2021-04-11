@@ -3,27 +3,26 @@
 
 static const int SIZE = 5;
 
-class List {
+class List
+{
 
 private:
-	int top;
-	double lst[SIZE];
+    int top;
+    double lst[SIZE];
 
 public:
-	List();
-	~List();
+    List();
+    ~List();
 
-	void showList() const;
-	void add(double i);
-	void visit(void (*pf)(double &));
-	void pop();
-	int isEmpty() const;
-	int isFull() const;
-
+    void showList() const;
+    void add(double i);
+    void visit(void (*pf)(double&));
+    void pop();
+    int isEmpty() const;
+    int isFull() const;
 };
 
 // function add 10 to item of list
-void addTen(double &i);
-
+void addTen(double& i);
 
 #endif // LIST_H

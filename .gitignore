@@ -1,0 +1,9 @@
+*.workspace
+compile_commands.json
+Makefile
+*.codelite/
+MySettings.zip
+*Debug/
+*.mk
+*.project
+compile_flags.*
